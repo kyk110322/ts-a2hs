@@ -14,7 +14,9 @@ on public folder
 index.html
 
 add
-<script>
+
+
+     <script>
       window.addEventListener('load', () => {
         if ('serviceWorker' in navigator) {
           navigator.serviceWorker
@@ -26,5 +28,6 @@ add
     </script>
     
     create sw.js
+    
     
     self.addEventListener('fetch', function (event) {});
